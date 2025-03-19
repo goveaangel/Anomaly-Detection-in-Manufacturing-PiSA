@@ -19,14 +19,25 @@ The analysis confirms that **thermal stress**, as evidenced by anomalous fluctua
 
 ## 📁 Repository Structure
 
+At the root of the repository, you will find the project report files:
+
 ```
-├── Report_PiSA.pdf                      # Project report (detailed methodology and results)
-├── main1.py                             # Data preprocessing and EDA script
-├── main_semana.py                       # Time-windowed data analysis and preparation
-├── sarimax_var1.ipynb                   # SARIMA model for variable 1
-├── sarimax_var2.ipynb                   # SARIMA model for variable 2
-├── sarimax_var3.ipynb                   # SARIMA model for variable 3
-├── variables_temp_prueba_pyod.ipynb     # Anomaly detection with KNN (PyOD library)
+├── Report_PiSA.pdf            # Detailed methodology and results (English)
+├── Reporte_PiSA.pdf           # Detailed methodology and results (Spanish)
+```
+
+The implementation code is organized into two main folders:
+
+```
+├── notebooks/                 # Jupyter Notebooks for anomaly detection and forecasting
+│   ├── sarimax_var1.ipynb           # SARIMA model for variable 1
+│   ├── sarimax_var2.ipynb           # SARIMA model for variable 2
+│   ├── sarimax_var3.ipynb           # SARIMA model for variable 3
+│   └── variables_temp_prueba_pyod.ipynb  # Anomaly detection with KNN (PyOD library)
+
+├── scripts/                   # Python scripts for data processing and preparation
+│   ├── main1.py                    # Data preprocessing and EDA script
+│   └── main_semana.py              # Time-windowed data analysis and preparation
 ```
 
 ---
