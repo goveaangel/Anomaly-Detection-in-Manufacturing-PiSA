@@ -106,9 +106,3 @@ For a detailed explanation of the problem, methodology, and results, please refe
 For questions or collaboration opportunities, feel free to reach out:
 
 - **José Ángel Govea García** - [goveaangel090@gmail.com](mailto:goveaangel090@gmail.com)
-
----
-
-## 🔗 Repository Link
-
-> **GitHub Repository:** [Anomaly Detection in Manufacturing - PiSA](https://github.com/goveaangel/Anomaly-Detection-in-Manufacturing-PiSA)
